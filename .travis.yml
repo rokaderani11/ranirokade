@@ -5,7 +5,7 @@ cache: pip
 install:
   - pip install codecov
 script:
-  - coverage run cricket.py
+  - coverage run calculator.py
   
 after_success:
   - codecov
